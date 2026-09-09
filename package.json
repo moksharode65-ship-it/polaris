@@ -1,0 +1,45 @@
+{
+  "name": "polaris_sih26063_blueprint",
+  "version": "1.0.0",
+  "description": "Premium polar-science knowledge repository and media dissemination portal.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "prisma:seed": "ts-node prisma/seed.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "framer-motion": "^13.2.0",
+    "lucide-react": "^1.43.0",
+    "next": "^16.3.4",
+    "next-auth": "^4.24.15",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
+  "devDependencies": {
+    "@prisma/client": "^5.22.0",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/node": "^26.5.0",
+    "@types/react": "^19.2.18",
+    "@types/react-dom": "^19.2.7",
+    "autoprefixer": "^10.5.5",
+    "postcss": "^8.5.28",
+    "prisma": "^5.22.0",
+    "tailwindcss": "^4.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^7.0.2"
+  },
+  "prisma": {
+    "seed": "ts-node --compiler-options {\\\"module\\\":\\\"CommonJS\\\"} prisma/seed.ts"
+  }
+}

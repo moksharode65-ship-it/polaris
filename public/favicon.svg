@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <defs>
+    <linearGradient id="glow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" />
+      <stop offset="100%" stop-color="#2DD4BF" />
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="2" />
+    </filter>
+  </defs>
+  <rect width="100" height="100" rx="20" fill="#0A0F1D" />
+  
+  <g transform="translate(50, 50)">
+    <path d="M0 -30 L10 -10 L30 0 L10 10 L0 30 L-10 10 L-30 0 L-10 -10 Z" fill="url(#glow)" />
+    <circle cx="0" cy="0" r="4" fill="#F8FAFC" />
+  </g>
+</svg>
